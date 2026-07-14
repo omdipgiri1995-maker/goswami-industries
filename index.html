@@ -1,1 +1,197 @@
 
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goswami Industries - Packaging Solutions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+        header p {
+            font-size: 14px;
+            color: #38bdf8;
+        }
+        .hero {
+            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 25px;
+        }
+        .btn-contact {
+            background-color: #25d366;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+            transition: 0.3s;
+        }
+        .btn-contact:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(37, 211, 102, 0.5);
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 28px;
+            color: #0f172a;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: #38bdf8;
+            margin: 10px auto 0;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: 0.3s;
+            text-align: center;
+            padding: 20px;
+            border-top: 5px solid #38bdf8;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-card h3 {
+            margin: 15px 0 10px;
+            color: #0f172a;
+        }
+        .product-card p {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .about {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+        }
+        .about p {
+            margin-bottom: 15px;
+            color: #475569;
+        }
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+        }
+        footer p {
+            font-size: 14px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Goswami Industries</h1>
+        <p>Quality Packaging & Industrial Solutions</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Industrial Grade Packaging Materials</h2>
+        <p>અમે પ્રીમિયમ ક્વોલિટીની BOPP ટેપ અને પેકેજિંગ મટીરીયલ્સનું ઉત્પાદન અને સપ્લાય કરીએ છીએ.</p>
+        <!-- WhatsApp Link (તમારો નંબર 91XXXXXXXXXX ફોર્મેટમાં મૂકો) -->
+        <a href="https://wa.me/919999999999?text=Hello%20Goswami%20Industries,%20I%20am%20interested%20in%20your%20products." class="btn-contact" target="_blank">
+            💬 WhatsApp પર સંપર્ક કરો
+        </a>
+    </section>
+
+    <div class="container">
+        <!-- About Section -->
+        <section class="about">
+            <h2 class="section-title">અમારા વિશે (About Us)</h2>
+            <p><strong>ગોસ્વામી ઇન્ડસ્ટ્રીઝ</strong> માં આપનું હાર્દિક સ્વાગત છે. અમે વડોદરા સ્થિત પેકેજિંગ ક્ષેત્રના અગ્રણી ઉત્પાદક છીએ. અમારો મુખ્ય હેતુ ગ્રાહકોને ઉચ્ચ ગુણવત્તાવાળી સર્વિસ અને મટીરીયલ આપવાનો છે.</p>
+            <p>અમે લેટેસ્ટ ટેકનોલોજી અને કુશળ કારીગરોની મદદથી બેસ્ટ ક્વોલિટી પ્રોડક્ટ્સ તૈયાર કરીએ છીએ જે તમારા બિઝનેસ પેકેજિંગને મજબૂત અને આકર્ષક બનાવે છે.</p>
+        </section>
+
+        <!-- Products Section -->
+        <section>
+            <h2 class="section-title">અમારી પ્રોડક્ટ્સ</h2>
+            <div class="products">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <h3>BOPP Tapes (સેલોટેપ)</h3>
+                    <p>મજબૂત ગુંદર અને લાંબા સમય સુધી ટકી રહે તેવી પ્રીમિયમ ક્વોલિટીની બોપ ટેપ (ટ્રાન્સપરન્ટ અને બ્રાઉન).</p>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <h3>Custom Printed Tapes</h3>
+                    <p>તમારા બ્રાન્ડ લોગો અને નામ સાથે પ્રિન્ટ કરેલી આકર્ષક કસ્ટમ ટેપ, જે તમારી બ્રાન્ડ વેલ્યુ વધારે છે.</p>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <h3>Industrial Packaging</h3>
+                    <p>ઉદ્યોગો માટે હેવી-ડ્યુટી પેકેજિંગ સોલ્યુશન્સ અને મટીરીયલ જે ટ્રાન્સપોર્ટેશનમાં સુરક્ષા આપે છે.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Goswami Industries. All Rights Reserved.</p>
+        <p>Vadodara, Gujarat, India</p>
+    </footer>
+
+</body>
+</html>
